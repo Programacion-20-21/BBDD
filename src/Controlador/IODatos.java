@@ -68,7 +68,7 @@ public class IODatos {
             
             while (rs.next()) {
                 Object[] fila = {rs.getString(1), rs.getString(2)};
-                mTabla.addRow(fila);
+                mTabla.addRow(fila);    
                
                 
             }
